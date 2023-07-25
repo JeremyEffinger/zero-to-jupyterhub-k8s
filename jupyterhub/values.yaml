@@ -84,7 +84,7 @@ hub:
   extraVolumeMounts: []
   image:
     name: jupyterhub/k8s-hub
-    tag: "set-by-chartpress"
+    tag: "2.0.0"
     pullPolicy:
     pullSecrets: []
   resources: {}
